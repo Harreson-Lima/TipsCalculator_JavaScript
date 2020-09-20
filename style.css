@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #EFD04A;
+  --secundary-color: #23A1DE;
+  --tertiary-color: #006291;
+  --quaternary-color: #F1F1F1;
+  --quinary-color: #e8c83f;
+}
+
+body {
+  background-color: var(--quaternary-color);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+
+#container {
+  background-color: white;
+  width: 368px;
+  height: 525px;
+
+  margin-top: 45px;
+  margin-right: 0px;
+
+  border: 1px solid var(--secundary-color);
+  border-radius: 8px;
+  box-shadow: 5px 10px 10px var(--tertiary-color);
+}
+
+#bg {
+  width: 500px;
+  height: 500px;
+
+  margin-top: 50px;
+  margin-left: 100px;
+
+  background-image: url(images/people.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title {
+  background-color: var(--primary-color);
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding: 15px;
+  margin: 0;
+
+  border-radius: 8px 8px 0 0;
+}
+
+#tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput {
+  width: 60px;
+
+  padding: 5px 8px 5px 8px;
+}
+
+.formInput:focus {
+  border: 1px solid var(--secundary-color);
+}
+
+.formSelect {
+  width: 180px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#btnSubmit {
+  background-color: var(--primary-color);
+
+  width: 150px;
+  height: 50px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 17px;
+
+  display: block;
+
+  margin:  30px auto;
+  padding: 10px;
+
+  border: 1px solid var(--quinary-color);
+  border-radius: 30px;
+}
+
+#btnSubmit:hover {
+  background-color: var(--quinary-color);
+  cursor: pointer;
+}
+
+#totalTip {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
